@@ -80,7 +80,10 @@ function About() {
                             <p className='grid-headtext'>My passion For Coding</p>
                             <p className='grid-subtext'>
                                 I am passionate about coding and design. I love to create beautiful and functional
-                                websites that are user-friendly.
+                                websites that are user-friendly. You can view more of my work on <span
+                                className='text-slate-400 hover:text-sky-400 font-semibold shaking cursor-pointer items-center'
+                                onClick={() => window.open('https://github.com/nguyeenphan', '_blank')}>Github</span>
+                                 {/*<img src='/assets/github.svg' alt='github' className='inline w-4 h-4 mb-1'/>*/}
                             </p>
                         </div>
                     </div>
