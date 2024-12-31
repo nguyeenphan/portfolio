@@ -1,12 +1,9 @@
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 import {useState} from "react";
-import {useMediaQuery} from "react-responsive";
 
 function About() {
     const [hasCopied, setHasCopied] = useState(false);
-    const isMobile = useMediaQuery({maxWidth: 768});
-
     const handleCopy = () => {
         navigator.clipboard.writeText('phannguyenbh0902@gmail.com');
         setHasCopied(true);
@@ -20,7 +17,7 @@ function About() {
             <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
                 <div className='col-span-1 xl: row-span-3'>
                     <div className='grid-container'>
-                        <img src='/assets/Haku.png' alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain rounded-xl'/>
+                        <img src='/assets/pic.png' alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain rounded-xl'/>
                         <div>
                             <p className='grid-headtext'>Hi I&#39;m Nguyen</p>
                             <p className='grid-subtext'> With 1 years of experience in Frontend development and UX design, with
@@ -83,7 +80,6 @@ function About() {
                                 websites that are user-friendly. You can view more of my work on <span
                                 className='text-slate-400 hover:text-sky-400 font-semibold shaking cursor-pointer items-center'
                                 onClick={() => window.open('https://github.com/nguyeenphan', '_blank')}>Github</span>
-                                 {/*<img src='/assets/github.svg' alt='github' className='inline w-4 h-4 mb-1'/>*/}
                             </p>
                         </div>
                     </div>

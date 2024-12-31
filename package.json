@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nguyeenphan.github.io/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -22,7 +21,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-globe.gl": "^2.27.6",
+    "react-icons": "^5.4.0",
     "react-responsive": "^10.0.0",
+    "react-router-dom": "^7.1.1",
     "three": "^0.170.0"
   },
   "devDependencies": {

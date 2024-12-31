@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className='text-white-500'>
-                © 2024 Nguyen Phan. All rights reserved
+                © {new Date().getFullYear()} Nguyen Phan. All rights reserved
             </p>
         </section>
     )
