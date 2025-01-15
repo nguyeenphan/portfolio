@@ -2,8 +2,8 @@ import { MdArrowOutward } from "react-icons/md";
 
 function Project() {
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
-            <div className="c-space my-32 max-w-7xl">
+        <section id="project" className="w-full flex flex-col relative">
+            <div className="c-space max-w-7xl">
                 <h1 className="font-bold leading-tight tracking-tight text-slate-300 text-6xl md:text-7xl mb-8">Projects</h1>
                 <hr className='w-full border-t-2 border-slate-300 mt-4 mb-6'/>
 
